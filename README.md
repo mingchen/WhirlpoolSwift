@@ -1,5 +1,10 @@
 # WhirlpoolSwift
 
+[![CI](https://github.com/mingchen/WhirlpoolSwift/actions/workflows/CI.yml/badge.svg)](https://github.com/mingchen/WhirlpoolSwift/actions/workflows/CI.yml)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Flovetodream%2Fswift-blake2%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/mingchen/WhirlpoolSwift)
+ [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Flovetodream%2Fswift-blake2%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/mingchen/WhirlpoolSwift)
+
+
 The WHIRLPOOL hash function implemented in Swift. This Swift wrapper encapsulates the WHIRLPOOL reference implementation.
 
 WHIRLPOOL is a hash function designed by Vincent Rijmen and Paulo S. L. M. Barreto that operates on messages less than 2256 bits in length, and produces a message digest of 512 bits.
