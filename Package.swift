@@ -22,9 +22,7 @@ let package = Package(
         .target(
             name: "WhirlpoolSwift",
             dependencies: ["WhirlpoolC"],
-            // Specifying the path is superfluous as long as
-            // the corresponding folder is called 'SwiftModule'
-            swiftSettings: [.interoperabilityMode(.C)]),
+            swiftSettings: [.interoperabilityMode(.C)]), // `interoperabilityMode` requires Swift 5.9
         .testTarget(
             name: "WhirlpoolSwiftTests",
             dependencies: ["WhirlpoolSwift"]),
