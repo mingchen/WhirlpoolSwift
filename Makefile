@@ -3,10 +3,10 @@
 all: test
 
 build:
-	swift build
+	swift build -v
 
 test:
-	swift test
+	swift test -v
 
 clean:
 	rm -fr .build .DS_Store
