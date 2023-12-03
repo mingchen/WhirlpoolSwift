@@ -14,6 +14,15 @@ WHIRLPOOL was adopted by the International Organization for Standardization (ISO
 ## Usage
 
 Import this package through Swift Package Manager.
+Add the following dependency to your `Package.swift` file:
+
+```swift
+// Select a package version:
+.package(url: "https://github.com/mingchen/WhirlpoolSwift.git", from: "1.0.0")
+
+// Select a product: WhirlpoolSwift
+.product(name: "WhirlpoolSwift", package: "whirlpoolswift")
+```
 
 ### Code Examples
 
