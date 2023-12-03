@@ -9,6 +9,29 @@ import WhirlpoolC
 ///
 /// WHIRLPOOL was adopted by the International Organization for Standardization (ISO) in the ISO/IEC 10118-3:2004 standard.
 ///
+/// Usage Example:
+///
+/// ```swift
+/// import WhirlpoolSwift
+///
+/// let data1: Data = ...
+/// let data2: Data = ...
+///
+/// var whirlpool = Whirlpool()
+/// whirlpool.update(data: data1)
+/// whirlpool.update(data: data2)
+/// let digest = whirlpool.finalize()   // 64 bytes digest
+/// ```
+///
+/// Alternatively, for minimal data, in a single line.
+///
+/// ```swift
+/// import WhirlpoolSwift
+///
+/// let input = "The quick brown fox jumps over the lazy dog"
+/// let digest = Whirlpool.hash(data: input.data(using: .utf8)!)    // 64 bytes digest
+/// ```
+///
 public struct Whirlpool {
     private var nessie = NESSIEstruct()
 

@@ -43,6 +43,7 @@ Alternatively, for minimal data, in a single line.
 ```swift
 import WhirlpoolSwift
 
+let input = "The quick brown fox jumps over the lazy dog"
 let digest = Whirlpool.hash(data: input.data(using: .utf8)!)    // 64 bytes digest
 ```
 
