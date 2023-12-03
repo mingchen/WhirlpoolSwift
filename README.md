@@ -58,6 +58,10 @@ WHIRLPOOL uses Merkle-Damgård strengthening and the Miyaguchi-Preneel hashing s
 
 The WHIRLPOOL hashing function is named after the Whirlpool galaxy in Canes Venatici (M51, or NGC 5194), the first one recognized to have spiral structure by William Parsons, third Earl of Rosse, in April 1845 (cf. M. Hoskin, "The Cambridge Illustrated History of Astronomy," Cambridge University Press, 1997).
 
+## License
+
+Public domain. See [LICENSE](LICENSE).
+
 ## References
 
 - https://web.archive.org/web/20171129084214/http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html
